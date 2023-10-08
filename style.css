@@ -1,0 +1,112 @@
+@font-face {
+  font-family: "SVN-Gilroy";
+  src: url("./FontGilroy/SVN-Gilroy\ Bold.otf") format("otf");
+}
+@font-face {
+  font-family: "Oduda";
+  src: url("./fonts/Oduda-Bold-Demo.otf") format("otf");
+}
+
+* {
+  font-family: "UnifrakturCook", cursive;
+}
+p {
+  margin: 0;
+}
+/* Header */
+.header {
+  padding: 14px 32px;
+  position: fixed;
+  width: 100vw;
+  backdrop-filter: blur(3px);
+}
+.logo-text {
+  font-family: Oduda;
+  color: white;
+}
+.navbar-nav {
+  gap: 60px;
+}
+.navbar-nav li a {
+  color: #fff;
+  font-family: SVN-Gilroy;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding: 0;
+}
+
+/* Home */
+.body-home {
+  background: #0f1c24;
+  padding: 32px 0;
+}
+.title {
+  color: #fff;
+  font-size: 75px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-align: center;
+}
+.caption-image {
+  color: #fff;
+  font-size: 37.5px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding-top: 24px;
+  text-align: center;
+}
+.pointer {
+  cursor: pointer;
+}
+.frame-image {
+  padding: 0 12px;
+}
+.frame-image a img {
+  width: 100%;
+}
+a {
+  text-decoration: none;
+}
+.introducing-video {
+  background-image: url("./images/bg1.png");
+}
+
+/* About  */
+.banner-2 {
+  position: relative;
+}
+.about-title {
+  position: absolute;
+  gap: 120px;
+  left: 100px;
+  top: 70%;
+}
+.about-body-1 {
+  background-image: url("./images/about-bg-1.png");
+  background-size: contain;
+}
+.about-body-2 {
+  background-image: url("./images/about-bg-2.png");
+  background-size: contain;
+}
+.text-body {
+  color: white !important;
+  text-align: justify;
+  font-family: SVN-Gilroy;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.subtitle {
+  color: #fff;
+  text-align: center;
+  font-size: 75px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
