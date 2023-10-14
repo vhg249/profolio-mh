@@ -19,6 +19,7 @@ p {
   position: fixed;
   width: 100vw;
   backdrop-filter: blur(3px);
+  z-index: 100;
 }
 .logo-text {
   font-family: Oduda;
@@ -93,6 +94,18 @@ a {
   background-image: url("./images/about-bg-2.png");
   background-size: contain;
 }
+.about-body-3 {
+  background-image: url("./images/about-bg-3.png");
+  background-size: contain;
+}
+.about-body-4 {
+  background-image: url("./images/about-bg-4.png");
+  background-size: contain;
+}
+.about-body-5 {
+  background-image: url("./images/about-bg-5.png");
+  background-size: contain;
+}
 .text-body {
   color: white !important;
   text-align: justify;
@@ -102,6 +115,15 @@ a {
   font-weight: 400;
   line-height: normal;
 }
+.text-body1 {
+  color: white !important;
+  text-shadow: 2px 2px 2px rgba(153, 255, 51, 0.25);
+  font-family: SVN-Gilroy;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
 .subtitle {
   color: #fff;
   text-align: center;
@@ -109,4 +131,72 @@ a {
   font-style: normal;
   font-weight: 700;
   line-height: normal;
+}
+.frame-video {
+  position: relative;
+}
+.video-youtube {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+}
+.video {
+  position: absolute;
+  top: 46%;
+  left: 35%;
+  width: 500px;
+  height: 265px;
+}
+
+/* Experience */
+.experience-title {
+  position: absolute;
+  gap: 120px;
+  left: 100px;
+  top: 60%;
+}
+.experience-body {
+  background-image: url("./images/experience-bg.png");
+  background-size: contain;
+  background-size: 100% auto;
+}
+.experience-text {
+  color: #fff;
+  text-shadow: 2px 2px 2px rgba(153, 255, 51, 0.25);
+  font-family: SVN-Gilroy;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.experience-text1 {
+  color: #fff;
+  font-family: SVN-Gilroy;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+/* Portfolio */
+.portfolio-body {
+  background-image: url("./images/portfolio-bg.png");
+  background-size: contain;
+  background-size: 100% auto;
+}
+.portfolio-title {
+  position: absolute;
+  gap: 120px;
+  left: 100px;
+  top: 80%;
+}
+.graphic-body {
+  background-image: url("./images/graphic-bg.png");
+  background-size: 100% 100%;
+  padding-bottom: 250px;
+}
+.uiux-body {
+  background-image: url("./images/graphic-bg.png");
+  background-size: 100% 100%;
+  padding-bottom: 250px;
 }

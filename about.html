@@ -1,148 +1,215 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
 
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=UnifrakturCook:wght@700&display=swap"
-      rel="stylesheet"
-    />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
 
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
-    />
-    <link rel="stylesheet" href="./style.css" />
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
-      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js"
-      integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa"
-      crossorigin="anonymous"
-    ></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=UnifrakturCook:wght@700&display=swap" rel="stylesheet" />
 
-    <script
-      src="https://code.jquery.com/jquery-3.7.1.slim.min.js"
-      integrity="sha256-kmHvs0B+OpCW5GVHUNjv9rOmY0IvSIRcf7zGUDTDQM8="
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://code.jquery.com/jquery-3.7.1.min.js"
-      integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://code.jquery.com/jquery-3.7.1.slim.js"
-      integrity="sha256-UgvvN8vBkgO0luPSUl2s8TIlOSYRoGFAX4jlCIm9Adc="
-      crossorigin="anonymous"
-    ></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="./style.css" />
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js"
+    integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa"
+    crossorigin="anonymous"></script>
 
-    <script src="./action.js"></script>
-  </head>
+  <script src="https://code.jquery.com/jquery-3.7.1.slim.min.js"
+    integrity="sha256-kmHvs0B+OpCW5GVHUNjv9rOmY0IvSIRcf7zGUDTDQM8=" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+    integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.7.1.slim.js"
+    integrity="sha256-UgvvN8vBkgO0luPSUl2s8TIlOSYRoGFAX4jlCIm9Adc=" crossorigin="anonymous"></script>
 
-  <body>
-    <!-- Header -->
-    <nav class="navbar navbar-expand-lg header">
-      <div class="w-100 d-flex justify-content-between">
-        <a class="navbar-brand d-flex" href="#" style="gap: 12px">
-          <img src="./images/LOGO.png" />
-          <p class="logo-text">maihuyen302</p>
-        </a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div
-          class="collapse navbar-collapse justify-content-end"
-          id="navbarNav"
-        >
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link" href="#">About Mai Huyen</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Experiences</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Portfolio </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Contact</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
+  <script src="./action.js"></script>
+</head>
 
-    <!-- Banner -->
-    <div class="banner-2">
-      <img src="./images/banner2.png" width="100%" />
-      <div class="about-title d-flex align-items-end">
-        <img src="./images/gate-2.png" />
-        <h1 class="title">Portal: About Me</h1>
+<body>
+  <!-- Header -->
+  <nav class="navbar navbar-expand-lg header">
+    <div class="w-100 d-flex justify-content-between">
+      <a class="navbar-brand d-flex" href="/" style="gap: 12px">
+        <img src="./images/LOGO.png" />
+        <p class="logo-text">maihuyen302</p>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="/about.html">About Mai Huyen</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/experience.html">Experiences</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/portfolio.html">Portfolio </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/">Contact</a>
+          </li>
+        </ul>
       </div>
     </div>
+  </nav>
 
-    <!-- Body -->
-    <div class="about-body-1">
-      <div class="container">
-        <div class="row align-items-center" style="padding-top: 230px">
-          <div class="col-6">
-            <img src="./images/item1.png" width="486px" />
-          </div>
-          <div class="col-6">
-            <p class="text-body">
-              4-year experienced graphic designer in many fields: F&B (a chain
-              of Asian restaurants in Finland), cosmetics, Youtube partners,
-              household (water purifier) & banking events, 2-year experienced
-              UI/UX designer with internal banking app, education app & website,
-              houseware website, sleeping app. I work for product companies so
-              I’m familiar with Agile and Scrum workflow. Besides, I also know
-              about video editing & motion graphics.
-            </p>
-          </div>
+  <!-- Banner -->
+  <div class="banner-2">
+    <img src="./images/banner2.png" width="100%" />
+    <div class="about-title d-flex align-items-end">
+      <img src="./images/gate-2.png" />
+      <h1 class="title">Portal: About Me</h1>
+    </div>
+  </div>
+
+  <!-- Body -->
+  <div class="about-body-1">
+    <div class="container">
+      <div class="row align-items-center" style="padding-top: 230px">
+        <div class="col-6">
+          <img src="./images/item1.png" width="486px" />
+        </div>
+        <div class="col-6">
+          <p class="text-body">
+            4-year experienced graphic designer in many fields: F&B (a chain
+            of Asian restaurants in Finland), cosmetics, Youtube partners,
+            household (water purifier) & banking events, 2-year experienced
+            UI/UX designer with internal banking app, education app & website,
+            houseware website, sleeping app. I work for product companies so
+            I’m familiar with Agile and Scrum workflow. Besides, I also know
+            about video editing & motion graphics.
+          </p>
         </div>
       </div>
     </div>
+  </div>
 
-    <div class="about-body-2">
-      <div class="container">
-        <div class="row align-items-center">
-          <div class="col-6">
-            <img src="./images/item2.png" width="100%" />
+  <div class="about-body-2">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-6 d-flex flex-column" style="gap: 40px;">
+          <p class="subtitle text-center">Skills</p>
+          <div class="row" style="gap: 20px;">
+            <div class="col text-center">
+              <img src="./images/skill1.png" width="125px" />
+            </div>
+            <div class="col text-center">
+              <img src="./images/skill2.png" width="125px" />
+            </div>
+            <div class="col text-center">
+              <img src="./images/skill3.png" width="125px" />
+            </div>
           </div>
-          <div class="col-6 d-flex flex-column" style="gap: 40px;">
-            <p class="subtitle text-center">Skills</p>
-            <div class="row" style="gap: 20px;">
-                <div class="col">
-                    <img src="./images/skill1.png" width="125px" />
-                </div>
-                <div class="col">
-                    <img src="./images/skill2.png" width="125px" />
-                </div>
-                <div class="col">
-                    <img src="./images/skill3.png" width="125px" />
-                </div>
+          <div class="row" style="gap: 20px;">
+            <div class="col text-center">
+              <img src="./images/skill4.png" width="125px" />
+            </div>
+            <div class="col text-center">
+              <img src="./images/skill5.png" width="125px" />
+            </div>
+            <div class="col text-center">
+              <img src="./images/skill6.png" width="125px" />
             </div>
           </div>
         </div>
+        <div class="col-6">
+          <img src="./images/item2.png" width="100%" />
+        </div>
       </div>
     </div>
-  </body>
+  </div>
+
+  <div class="about-body-3">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-6">
+          <img src="./images/item3.png" width="100%" />
+        </div>
+        <div class="col-6 d-flex flex-column align-items-center" style="gap: 40px;">
+          <p class="subtitle text-center">Education</p>
+          <div style="width: 438px;">
+            <p class="text-body1">2011 - 2014</p>
+            <p class="text-body1">Hung Vuong Gifted High School</p>
+            <li class="text-body">French speacialized class</li>
+          </div>
+          <div style="width: 438px;">
+            <p class="text-body1">2014 - 2018</p>
+            <p class="text-body1">Foreign Trade University</p>
+            <li class="text-body">External Economics</li>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="about-body-4">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-6 d-flex flex-column align-items-center" style="gap: 40px;">
+          <p class="subtitle text-center">Languages</p>
+          <div style="width: 438px;">
+            <p class="text-body1">English</p>
+            <p class="text-body1">I can express myself fluently</p>
+            <ul>
+              <li class="text-body">I can use complex grammar and phrases</li>
+              <li class="text-body">I can speak very well, not quite like native
+                speakers but closely</li>
+            </ul>
+
+          </div>
+          <div style="width: 438px;">
+            <p class="text-body1">French</p>
+            <p class="text-body1">I’m conversational</p>
+            <ul>
+              <li class="text-body">I can speak about my experiences, make plans
+                and tell stories</li>
+            </ul>
+          </div>
+          <div style="width: 438px;">
+            <p class="text-body1">Spanish, Italian</p>
+            <p class="text-body1">I know the basics</p>
+            <ul>
+              <li class="text-body">I can talk about simple topics</li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-6 d-flex justify-content-center">
+          <img src="./images/item4.png" width="297.45px" />
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="about-body-5">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-6 d-flex justify-content-center">
+          <img src="./images/item5.png" width="100%" />
+        </div>
+        <div class="col-6 d-flex flex-column align-items-center" style="gap: 40px;">
+          <p class="subtitle text-center">Awards</p>
+          <div style="width: 438px;">
+            <p class="text-body1">FTU’s 60 year ceremony logo design contest</p>
+            <ul>
+              <li class="text-body">Top 3 best creative logos</li>
+              <li class="text-body">Unique Style prize</li>
+              <li class="text-body">Dedication prize</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+</body>
+
 </html>
